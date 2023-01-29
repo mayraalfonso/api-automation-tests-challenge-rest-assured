@@ -2,6 +2,7 @@ package Entities;
 
 
 public class Booking {
+    private int bookingid;
     private String lastname;
     private String firstname;
     private float totalprice;
@@ -67,5 +68,11 @@ public class Booking {
     }
 
 
+    public int getBookingid() {
+        return bookingid;
+    }
 
+    public void setBookingid(int bookingid) {
+        this.bookingid = bookingid;
+    }
 }
